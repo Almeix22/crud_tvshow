@@ -1,0 +1,154 @@
+.footer {
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    margin: 20px;
+    text-align: center;
+    font-size: large;
+    font-style :italic;
+}
+
+.header {
+    text-align: center;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+
+.content {
+    margin: 20px;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
+
+
+.list {
+    margin: 20px 20px 20px 20px;
+    flex: 1;
+    max-height: 700px;
+}
+
+a {
+    display :flex;
+    margin: 10px;
+}
+
+.serie {
+    display: flex;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+
+.serie__cover{
+    margin:10px 10px 10px 10px;
+    max-height: 200px;
+}
+
+.texte__desc{
+    margin-top: 35px;
+    float:right;
+}
+.texte__titre{
+    margin-top: 35px;
+    float:left;
+}
+
+.serie:nth-child(even){
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.serie.image:nth-child(odd){
+    display: flex;
+    flex-direction: row;
+    border-style: double ;
+    border-width: 2px;
+}
+
+.buttonmenuindex{
+    position: fixed;
+    top:134px;
+    background-color: white;
+    border-style: solid;
+    border-color:gray;
+    border-width: 2px;
+    padding: 1px;
+}
+/*CSS SAISON*/
+
+nav{
+    position: fixed;
+    right: 25px;
+    top : 45px;
+}
+
+.season{
+    display: flex;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+.season__poster{
+    margin:10px 10px 10px 10px;
+    max-height: 200px;
+}
+
+.season__name{
+    text-align:right;
+    float: right;
+}
+.season__original{
+    text-align:right;
+    float: right;
+}
+
+.buttonmenuseason{
+    position: fixed;
+    top : 50px;
+}
+.serie2 {
+    display: flex;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+.season__texte{
+    display: flex;
+    margin: 10px;
+    clear: right;
+    flex-direction: column;
+}
+
+/*CSS EPISODE*/
+
+.seasoninfo{
+    display: flex;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+.seasonserie {
+    text-align: right;
+    float: right;
+}
+.episode{
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+.buttonmenuepisode{
+    position: fixed;
+    top : 50px;
+}

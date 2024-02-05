@@ -1,0 +1,7 @@
+.idea
+.pptx
+.mypdo.ini
+
+/vendor/
+/.idea/
+/.mypdo.ini/

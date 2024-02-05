@@ -1,0 +1,32 @@
+{
+    "name": "fran0138/php-crud-tvshow",
+    "description": "Développement d'une application Web de consultation et modification de série TV",
+    "type": "project",
+    "license": "Copyleft",
+    "autoload": {
+      "psr-4": {
+        "": "src/"
+      }
+    },
+    "authors": [
+        {
+            "name": "fran0138",
+            "email": "axel.francois@etudiant.univ-reims.fr"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*",
+      "ext-intl": "*"
+    },
+
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.8"
+    },
+
+    "scripts": {
+      "run-server" : [
+        "Composer\\Config::disableProcessTimeout",
+        "APP_DIR=\"$PWD\" php -d display_errors -d auto_prepend_file=\"$PWD/vendor/autoload.php\" -S localhost:8000 -t public/"
+        ]
+    }
+}
